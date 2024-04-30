@@ -9,7 +9,7 @@ cors_proxy
   .createServer({
     originBlacklist: [],
     originWhitelist: [],
-    requireHeader: ["origin", "x-requested-with"],
+    //requireHeader: ["origin", "x-requested-with"],
     removeHeaders: [
       "cookie",
       "cookie2",
